@@ -1,0 +1,24 @@
+
+body {
+    /* removing body unnecessary spaces */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* using flexbox */
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* aligning to center */
+    justify-content: center;
+}
+
+div {
+    background-color: green;
+    /* setting 1/3 of parent width  */
+    width: 33%;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+}
